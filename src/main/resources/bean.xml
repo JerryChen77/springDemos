@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.springDemo.entity"></context:component-scan>
+
+<!--    <bean id="user1" class="com.springDemo.entity.User">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="name" value="李四"></property>-->
+<!--        <property name="addr" value="杭州"></property>-->
+<!--        <property name="age" value="32"></property>-->
+<!--    </bean>-->
+<!--    <bean id="user2" class="com.springDemo.entity.User">-->
+<!--        <property name="id" value="2"></property>-->
+<!--        <property name="name" value="张三"></property>-->
+<!--        <property name="addr" value="杭州"></property>-->
+<!--        <property name="age" value="20"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="emp" class="com.springDemo.entity.Emp">-->
+<!--        <property name="addr">-->
+<!--            <set>-->
+<!--                <value>杭州</value>-->
+<!--                <value>北京</value>-->
+<!--                <value>上海</value>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--        <property name="phone">-->
+<!--            <map>-->
+<!--                <entry key="火警" value="119"></entry>-->
+<!--                <entry key="医院" value="120"></entry>-->
+<!--                <entry key="警察" value="110"></entry>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--        <property name="code">-->
+<!--            <props>-->
+<!--                <prop key="邮编">310000</prop>-->
+<!--                <prop key="密码">10089</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+<!--        <property name="job">-->
+<!--            <list>-->
+<!--                <value>军人</value>-->
+<!--                <value>医生</value>-->
+<!--                <value>护士</value>-->
+<!--                <value>警察</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+</beans>
